@@ -8,5 +8,5 @@ response = requests.get("https://www.google.com")
 
 waktu = datetime.now()
 
-with open("tempResponse/" + waktu + ".txt", "w") as f:
+with open("tempResponse/" + str(waktu) + ".txt", "w") as f:
     f.write(response.text)
