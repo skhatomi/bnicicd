@@ -1,5 +1,5 @@
 import requests
-import datetime
+from datetime import datetime
 
 print("hello world")
 print("testing cicd BNI")
